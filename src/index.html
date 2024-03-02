@@ -19,7 +19,7 @@
 <body class="bg-slate-200">
     <div class="flex w-full">
         <!-- sidebar -->
-        <aside class="hidden sm:flex w-full max-w-[200px] min-h-screen relative bg-white flex-col px-2 py-5">
+        <aside class="border-r-2 hidden sm:flex w-full max-w-[200px] min-h-screen relative bg-white flex-col px-2 py-5">
             <div class="fixed">
                 <div>
                     <h1 class="text-rose-500 text-3xl font-bold">DevHouse</h1>
@@ -55,6 +55,35 @@
         </aside>
 
         <main class="w-full flex flex-col pb-4">
+            <!-- menu mobile -->
+            <div id="menu" class="absolute z-50 w-full items-center px-3 py-2 bg-white  -translate-y-full duration-300">
+                <button id="btn-close" onclick="closeMenu()" class="text-3xl text-bold mt-4 border-none rounded-full h-9 w-9 flex items-center justify-center duration-300">
+                    x
+                </button>
+
+                <nav class="flex flex-col mt-8 gap-5 w-full">
+                    <a href="#"
+                        class="text-gray-500 font-medium hover:text-black hover:bg-gray-100 p-3 rounded-lg duration-300">
+                        Aluguel
+                    </a>
+
+                    <a href="#"
+                        class="text-gray-500 font-medium hover:text-black hover:bg-gray-100 p-3 rounded-lg duration-300">
+                        Compra
+                    </a>
+
+                    <a href="#"
+                        class="text-gray-500 font-medium hover:text-black hover:bg-gray-100 p-3 rounded-lg duration-300">
+                        Serviços
+                    </a>
+
+                    <a href="#"
+                        class="text-gray-500 font-medium hover:text-black hover:bg-gray-100 p-3 rounded-lg duration-300">
+                        Contato
+                    </a>
+                </nav>
+            </div>
+
             <!-- inicio header -->
             <header class="bg-white w-full py-5 px-3 flex flex-row items-center justify-between">
                 <div class="flex items-center bg-slate-100 px-3 py-2 w-full max-w-xs lg:max-w-[50%] rounded-lg lg:mr-8">
@@ -69,15 +98,22 @@
                         class="w-8 h-8 p-5 bg-slate-100 hidden md:flex items-center justify-center rounded-full">
                         <i class="fa fa-heart text-gray-500" style="font-size: 16px;"></i>
                     </a>
-                    
-                    <button class="bg-rose-500 hover:bg-rose-600 duration-300 text-white flex items-center justify-center gap-2 px-4 py-2 rounded font-medium">
+
+                    <button
+                        class="bg-rose-500 hover:bg-rose-600 duration-300 text-white flex items-center justify-center gap-2 px-4 py-2 rounded font-medium ml-1">
                         <span class="hidden md:flex">Sign In</span>
                         <i class="fa fa-user md:ml-1"></i>
+                    </button>
+
+                    <button id="btn-open" onclick="openMenu()" class="sm:hidden flex items-center justify-center py-2 ">
+                        <i class="fa fa-bars" style="font-size: 24px;"></i>
                     </button>
                 </div>
             </header>
         </main>
     </div>
+
+    <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
