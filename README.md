@@ -3,7 +3,7 @@
  Este é o último projeto do curso de TailwindCSS que conclui em Fevereiro de 2024,  
  nele pude praticar e consolidar o conceito de grid, além de  animações, Classes  
  Utilitárias(Utility-First), Configuração Extensível, Mobile First, Variáveis,     
- Temas(Themes), Plugins, Hover, Focus, Active e etc. Estou ansioso para usar estes  
+ Temas(Themes), Plugins, Hover, Focus e Active. Estou ansioso para usar estes  
  conhecimentos em mais projetos pessoais futuros!
  </div>
 
