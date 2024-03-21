@@ -7,7 +7,7 @@
  conhecimentos em mais projetos pessoais futuros!
  </div>
 
- ## 🎨 Layout 💻 && 📱 Mobile
+ ## 🎨 Layout 💻 Desktop && 📱 Mobile
 
  <img width="1920" alt="Desktop" src="https://github.com/Israelkilday/dev_house/assets/101229204/a2b31ae7-b27a-4847-9c63-6ec2b427ecea">
 
